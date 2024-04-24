@@ -14,4 +14,10 @@
    yang dikirim oleh publisher bisa diterima dan diolah oleh subscriber.<br><br>
 
 2. Running RabbitMQ as message broker.
-   ![rabbitmq.png](img/rabbitmq-overview.png)
+   ![rabbitmq.png](img/rabbitmq-overview.png)<br><br>
+
+3. ![cargorun-publisher](img/cargorun-publisher.png)
+![cargorun-subscriber](img/cargorun-subscriber.png)
+   Kedua gambar tersebut adalah hasil setelah saya melakukan perintah cargo run pada subscriber dan publisher. Publisher 
+akan mengirim 5 event kepada message broker yang kemudian event tersebut akan diterima dan diproses oleh subscriber ditandai 
+dengan output tersebut.<br><br>
