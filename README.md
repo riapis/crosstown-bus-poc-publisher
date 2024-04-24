@@ -12,3 +12,6 @@
    <br> URL itu adalah pintu masuk kita ke message broker. Jadi, kalau URL di publisher sama dengan URL di subscriber,
    berarti keduanya terhubung ke server yang sama untuk saling mengirim pesan. Tujuannya adalah untuk memastikan bahwa pesan
    yang dikirim oleh publisher bisa diterima dan diolah oleh subscriber.<br><br>
+
+2. Running RabbitMQ as message broker.
+   ![rabbitmq.png](img/rabbitmq-overview.png)
